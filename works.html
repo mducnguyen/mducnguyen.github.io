@@ -1,0 +1,29 @@
+---
+layout: page
+title: Works
+permalink: /works/
+order: 1
+---
+
+<div class="home">
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+  {% for work in site.data.works %}
+    
+    <section class="project">
+      <h3 class="title">{{ work.title }}</h3>
+      <p class="desc">{{ work.desc }}</p>
+
+      <div class="images">
+        {% for image in work.images %}
+        <img src="{{ site.project_image_path }}{{ image }}" alt="{{ work.title }}" class="image" />
+        {% endfor %}
+      </div>
+
+      [ <a target="_blank" class="link" href="{{ work.project_url }}">Source code</a> ]
+    </section>
+
+  {% endfor %}
+
+</div>
