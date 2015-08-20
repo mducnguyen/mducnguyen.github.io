@@ -1,17 +1,20 @@
 - title: ABC Music Player
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+  desc: Der ABC Music Player kann eine Datei in ABC-Notation lesen und die Musik demgem&auml;&szlig; abspielen. Das Programm besteht aus einem Lexer und einem Parser. Zusammen f&uuml;hren sie lexikalische und sematische Analyse durch. Ein Abstrakt Syntax Baum wird inzwischen erzeugt, welcher für weitere Verarbeitung und Auswertung ben&ouml;tigt ist. (Laufende Arbeit)
   images:
-    - mark-zero.png
-    - mvc.jpg
-  project_url: https://github.com/mducnguyen
+    - abcmusic-1.png
+  project_url: https://github.com/Die2Brueder/ABC-Music-Player 
 
-- title: SAT Solver
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  project_url: https://github.com/mducnguyen/onlineshop 
+- title: Route Finder
+  desc: Das Program finden aus dem vorhandenen Graphen den k&uuml;rzesten Weg zwischen zwei Orten, den Eulerkreis eines Graphen bzw. dessen Minimum Spannbaum. Daf&uuml;r steht eine Sammlung von effizienten Algorithmen im Bereich "Route Finding" des Graphentheoretischen Konzeptes z.B. Dijkstra's Shortest-Path, A* Algorithmus, Kruskal Spanning-Tree, Hierholzer's Eulerkreis... zur Verf&uuml;gung.
+  images:
+    - route-finder-1.png
+    - route-finder-2.png
+  project_url: https://github.com/HAWProjects/GKA 
 
 - title: E-Commerce Website
-  desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  desc: Das Projekt ist Teil einer Veranstaltung an der HAW Hamburg. Das Projekt geht nicht darum Produkte zu verkaufen, sondern analytische Komponenten im Backend zuintegrieren. Mit Hilfe des Laravel Frameworks konnten wir das Projekt effizienter durchf&uuml;hren und uns auf die relevanten Aufgaben konzentrieren. 
   images:
-    - mark-zero.png
-    - mvc.jpg
-  project_url: https://github.com/ngnmhieu/Markzero-Framework 
+    - onlineshop-1.png
+    - onlineshop-2.png
+    - onlineshop-3.png
+  project_url: https://github.com/mducnguyen/onlineshop 
