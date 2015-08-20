@@ -1,23 +1,28 @@
 ---
-layout: default
+layout: page
+title: Works
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+        
+  <p>Hallo, Willkommen zu meiner Persönliche Webseite! Ich studiere gerade Informatik an der HAW Hamburg. Auf dieser Seite findet man meine Software-Projekte:  </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% for work in site.data.works %}
+    
+    <section class="project">
+      <h3 class="title">{{ work.title }}</h3>
+      <p class="desc">{{ work.desc }}</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="images">
+        {% for image in work.images %}
+        <img src="{{ site.project_image_path }}{{ image }}" alt="{{ work.title }}" class="image" />
+        {% endfor %}
+      </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      [ <a target="_blank" class="link" href="{{ work.project_url }}">Source code</a> ]
+    </section>
+
+  {% endfor %}
 
 </div>
